@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Objects;
 
 public class BaseSort {
-    private static final int ARRAY_SIZE = 80_000_000;
+    private static final int ARRAY_SIZE = (int) 8e6;
     private static final int TOTAL_THREADS = 8;
 
     public static void main(String[] args) {

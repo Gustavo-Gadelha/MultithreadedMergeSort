@@ -2,7 +2,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class MainSort {
-    private static final int ARRAY_SIZE = (int) 80e6;
+    private static final int ARRAY_SIZE = (int) 8e6;
     private static final int TOTAL_THREADS = 8;
     private static final int TOTAL_TASKS = 8;
     private static final int TASK_RANGE = Math.ceilDiv(ARRAY_SIZE, TOTAL_TASKS);
